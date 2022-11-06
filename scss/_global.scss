@@ -1,0 +1,41 @@
+
+*{
+  box-sizing: border-box;
+  font-family: 'Andika';
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+body{
+  background: #E5E5E5;
+}
+
+h1,h2,h3,h4,h5,h6,p,span{
+  margin: 0;
+  padding: 0;
+}
+ul,ol{
+  list-style: none;
+  padding: 0;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+img{
+  height: auto;
+}
+.container{
+  max-width: 1360px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}

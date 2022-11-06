@@ -1,0 +1,63 @@
+.klinika{
+  margin-top: 50px;
+}
+
+.klinika__line{
+  border: 1px solid #DBDBDB;
+  width: 140px;
+  margin: 0 auto;
+}
+.klinika__text{
+  font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+max-width: 753px;
+color: #949494;
+margin: 0 auto;
+margin-top: 43px;
+margin-bottom: 35px;
+position: relative;
+}
+.klinika__text2{
+  font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+color: #333333;
+margin: 0 auto;
+text-align: center;
+margin-top: 35px;
+}
+
+.klinika__text2:hover{
+  transform: scale(1.1);
+  transition: 1s linear;
+}
+.klinika__text:hover{
+  transform: scale(1.1);
+  transition: 1s linear;
+}
+
+.klinika__text::before{
+  content: "";
+  background-image: url("../img/poin2.svg");
+  width: 35px;
+  height: 45px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -50px;
+  top: -50px;
+  background-size: contain;
+  
+}
+.klinika__text::after{
+  content: "";
+  background-image: url("../img/point3.svg");
+  width: 35px;
+  height: 45px;
+  background-repeat: no-repeat;
+ position: absolute;
+  background-size: contain;
+right: -30px;
+bottom: -30px;
+}

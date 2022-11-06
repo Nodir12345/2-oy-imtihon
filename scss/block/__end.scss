@@ -1,0 +1,146 @@
+.end__box{
+background-color: #333;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.end__content{
+  max-width: 370px;
+}
+.end__title{
+  font-weight: 700;
+font-size: 48px;
+line-height: 62px;
+color: #FFFFFF;
+margin-bottom: 14px;
+}
+.end__text{
+  font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #949494;
+margin-bottom: 29px;
+}
+.end__input1{
+  padding-left: 22px;
+  padding-top: 14px;
+padding-right: 167px;
+  padding-bottom: 13px;
+}
+.end__input2{
+  padding-left: 22px;
+  padding-top: 14px;
+padding-right: 167px;
+  padding-bottom: 13px;
+  margin: 14px 0;
+}
+.end__input3{
+  padding-left: 22px;
+  padding-top: 19px;
+padding-right: 167px;
+  padding-bottom: 123px;
+}
+.end__link{
+  background: #FFBD54;
+border-radius: 3px;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+padding: 14px 50px;
+margin-top: 30px;
+}
+.end__link:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+  background-color: #333;
+  color: #FFBD54;
+}
+.end__link:active{
+  opacity: 0.5;
+}
+.end__input1:hover,.end__text:hover,.end__title:hover,.end_picture__box:hover,.end__input2:hover,.end__input3:hover{
+  transform: scale(1.05);
+  transition: 0.5s; 
+}
+
+
+@media screen and (max-width:1264px){
+
+.end__box{
+  padding-right: 30px;
+}
+.end_picture__box{
+  margin: 0 auto;
+  text-align: center;
+}
+.end__content{
+  margin-left: 30px;
+}
+}
+@media screen and (max-width:857px){
+  .end__content{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .end__map{
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+  }
+  .end__box{
+    padding-right: 20px;
+    margin: 0;
+  }
+  .end__box{
+    padding-right: 0;
+  }
+}
+@media screen and (max-width:500px){
+
+  .end__content{
+    max-width: 320px;
+  }
+  .end__title{
+  font-size: 38px;
+  }
+  .end__text{
+  font-size: 14px;
+  }
+  .end__input1{
+    padding-left: 22px;
+    padding-top: 14px;
+  padding-right: 97px;
+    padding-bottom: 13px;
+  }
+  .end__input2{
+    padding-left: 22px;
+    padding-top: 14px;
+  padding-right: 97px;
+    padding-bottom: 13px;
+    margin: 14px 0;
+  }
+  .end__input3{
+    padding-left: 22px;
+    padding-top: 19px;
+  padding-right: 97px;
+    padding-bottom: 123px;
+  }
+  .end__img{
+    max-width: 300px;
+  }
+  .end__map{
+    width: 300px;
+  }
+  .container{
+    padding-right: 0;
+  }
+}
+.space{
+  height: 200px;
+ background-color: #fff;
+max-width: 100%;
+
+}

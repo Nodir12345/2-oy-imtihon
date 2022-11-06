@@ -1,0 +1,92 @@
+.herro__title{
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  max-width: 608px;
+  color: #333333;
+}
+.herro__text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+  max-width: 495px;
+  margin-bottom: 38px;
+  margin-top: 29px;
+}
+.herro__link{
+  background: #333333;
+  border-radius: 3px;
+  font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+padding: 15px 48px;
+}
+.herro__link:hover{
+  background: #FFBD54;
+  transition: 1s;
+}
+.herro__link:active{
+  opacity: 0.5;
+}
+.herro__title:hover{
+ transform: scale(1.1);
+ transition: 1s;
+}
+.herro__text:hover{
+  transform: scale(1.1);
+  transition: 1s;
+ }
+ .herro__img:hover{
+  transform: scale(1.1);
+  transition: 1s linear;
+ }
+.herro__box{
+  display: flex;
+ align-items: center;
+  justify-content: space-between;
+  background-image: url("../img/tuti.png");
+  background-repeat: no-repeat;
+  background-position:bottom -80px right -30px;
+
+}
+.herro__title-blue{
+color: #78C0DE;
+}
+@media screen and (max-width:1200px) {
+  .herro__box{
+    flex-direction: column;
+  align-items: start;
+  }
+}
+@media screen and (max-width:710px){
+  .herro__box{
+    background-position:bottom -130px;
+    padding-bottom: 380px;
+    margin: 0 auto;
+  }
+  .herro__img{
+    max-width: 400px;
+ 
+    align-items: center;
+  }
+  .herro__text{
+    font-size: 14px;
+  }
+  .herro__title{
+    font-size: 50px;
+  }
+  .herro__content{
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width:400px){
+  .herro__title{
+    font-size: 40px;
+  }
+  .herro__img{
+    max-width: 360px;
+  }
+}

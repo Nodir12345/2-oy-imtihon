@@ -1,0 +1,229 @@
+.header__button{
+  background: #FFFFFF;
+padding: 0 5px;
+}
+
+
+.header__top-box{
+  @include flex;
+  justify-content: space-between;
+  padding-left: 190px;
+  padding-top: 14px;
+  padding-bottom: 10px;
+}
+.header__top-innercontent{
+  @include flex;
+}
+.header__top-addcontent{
+  @include flex;
+}
+.header__top-innertext + .header__top-innertext{
+  margin-left: 22px;
+}
+.header__top-addcontent2{
+  margin-left: 17px;
+}
+.header__top-link::before{
+  content: "";
+  background-image: url("../img/house.png");
+  width: 14px;
+  height: 13px;
+  display: inline-block;
+  margin-right: 9px;
+}
+.header__top-link{
+  font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #333333;
+}
+.header__top-innerlink::before{
+  content: "";
+  background-image: url("../img/point.png");
+  width: 4px;
+  height: 4px;
+  display: inline-block;
+  margin-right: 9px;
+}
+.header__top-innerlink, .header__top-innerlink1{
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #333333;
+}
+.header__top-innerlink1::before{
+  content: "";
+  background-image: url("../img/phone.png");
+  width: 12px;
+  height: 13px;
+  display: inline-block;
+  margin-right: 9px;
+}
+.header__top-addcontent1::before{
+  content: "";
+  background-image: url("../img/schedule.png");
+  width: 12px;
+  height: 13px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-right: 9px;
+}
+.header__button-content{
+  display: flex;
+  align-items: center;
+
+}
+
+
+.header__button-list + .header__button-list{
+  margin-left: 55px;
+}
+.header__button-link2{
+  margin-left: 163px;
+}
+.header__button{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.header__button-list:nth-child(1)::before{
+  content: "";
+  background-image: url("../img/balu.png");
+  width: 24px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-right: 9px;
+}
+.header__button-link{
+  font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #333333;
+
+}
+.header__button-link1{
+  font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #333333;
+display: flex;
+align-items: center;
+
+}
+.header__button-link1::before{
+  content: "";
+  background-image: url("../img/pet.png");
+  width: 32px;
+  height: 28px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-right: 9px;
+}
+
+
+
+.menu{
+  background-image: url("../img/menu.svg");
+  width: 25px;
+  height: 25px;
+  display: none;
+}
+.header__top-innerlink:hover{
+  color: #FFBD54;
+  transform: scale(1.2);
+transition: 0.5s;
+}
+.header__top-innerlink1:hover{
+  color: #FFBD54;
+  transform: scale(1.2);
+transition: 0.5s;
+}
+.header__top-link:hover{
+  color: #FFBD54;
+  transform: scale(1.2);
+transition: 0.5s;
+}
+.header__top-addcontent1:hover,.header__top-addcontent2:hover{
+  color: #FFBD54;
+  transform: scale(1.2);
+transition: 0.5s;
+}
+
+@media screen and (max-width:1200px) {
+  .header__top-box{
+    flex-direction: column;
+    padding-left: 0;
+  }
+  .header__top-innercontent{
+ margin: 30px 0;
+  }
+  .header__button-content{
+    display: none;
+  }
+  .header__button-link1{
+    display: none;
+  }
+  .menu{
+    display: block;
+  }
+}
+@media screen and (max-width:440px) {
+.header__top-innercontent{
+  flex-direction: column;
+}
+.header__top-innerlink , .header__top-innerlink1 {
+  margin-bottom: 15px;
+}
+.header__top-innerlink {
+  padding-right: 12px;
+}
+}
+.header__top-link:active{
+  color: #7F7F7F;
+}
+.header__top-innerlink:active{
+  color: #7F7F7F;
+}
+.header__top-innerlink1:active{
+  color: #7F7F7F;
+}
+
+.header__top-addcontent1:active,.header__top-addcontent2:active{
+  color: #7F7F7F;
+}
+.header__logo-img:hover{
+  opacity: 0.6;
+}
+.header__logo-img:active{
+  opacity: 0.4;
+}
+.line{
+  height: 4px;
+  background-color: #F4FFAD;
+  width: 100%;
+  display: none;
+}
+.header__button-list:hover{
+ .line{
+  display: block;
+ }
+transform: scale(1.2);
+transition: 0.5s;
+}
+.header__block:hover{
+  .line{
+    display: block;
+   }
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.header__button-list:active{
+opacity: 0.5;
+}
+.header__block:active{
+  opacity: 0.5;
+}

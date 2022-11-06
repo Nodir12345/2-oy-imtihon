@@ -1,0 +1,131 @@
+.mask1__box1{
+  background-image: url("../img/mask.jpg");
+  background-size: contain;
+  max-width: 1444px;
+  height: 308px;
+  margin-top: 200px;
+}
+.mask__title{
+  font-weight: 700;
+font-size: 48px;
+line-height: 20px;
+color: #FFFFFF;
+margin-bottom: 42px;
+}
+.mask__input{
+ padding-left: 22px;
+ padding-top: 18px;
+ padding-bottom: 12px;
+ padding-right: 147px;
+background: #FFFFFF;
+border-radius: 5px;
+}
+.mark__link{
+  background: #333333;
+border-radius: 3px;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+padding: 14px 51px;
+margin-left: 21px;
+}
+.mask__content__box{
+  display: flex;
+align-items: center;
+
+}
+.mask__box{
+  margin-left: 200px;
+}
+.mask1__box1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mask__img{
+  margin-bottom: 37px;
+}
+
+
+.mask__input:hover{
+  border: 2px solid #FFBD54;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.mask__input:active::placeholder{
+  color: #333333;
+  font-weight: 500;
+}
+.mark__link:hover{
+  background-color: #FFBD54;
+  color: #3333;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.mark__link:active{
+  opacity: 0.6;
+}
+.mask__title:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1440px) {
+  .mask1__box1{
+    flex-direction: column-reverse;
+gap: 100px;
+  }
+  .mask__img{
+    margin-bottom: -100px;
+  }
+  .mask__box{
+    margin-left: 0;
+    margin-bottom: -184px;
+  }
+
+  
+}
+@media screen and (max-width:730px){
+  .mask__content__box{
+    flex-direction: column;
+  }
+  .mark__link{
+    margin-top: 30px;
+  }
+  .mask__box{
+    margin-bottom: -263px;
+  }
+  .mask__title{
+  font-size: 30px;
+  }
+  .mask__input{
+    padding-left: 22px;
+    padding-top: 18px;
+    padding-bottom: 12px;
+    padding-right: 117px;
+   background: #FFFFFF;
+   border-radius: 5px;
+   }
+   
+}
+@media screen and (max-width:500px){
+.mask__img{
+  width: 340px;
+}
+.mask1__box1{
+  background-image: url("../img/mask.jpg");
+  background-size: contain;
+  max-width: 1444px;
+  height: 230px;
+  margin-top: 0;
+}
+}
